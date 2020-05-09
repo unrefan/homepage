@@ -1,3 +1,9 @@
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function() {
+      navigator.serviceWorker.register('../../sw.js');
+    });
+}
+
 window.addEventListener('load', function () {
     document.querySelector('.js-avatar').addEventListener('click', function () {
         animateCSS('.fire', 'move-left');
