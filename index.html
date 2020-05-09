@@ -23,6 +23,7 @@
     <link rel="apple-touch-icon" href="">
     
     <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css" >
+    <link rel="stylesheet" href="./assets/css/style.css" >
   </head>
   <body>
     <header>
@@ -32,12 +33,22 @@
     </header>
     <main>
       <article>
-        <div class="page" style="border-color: midnightblue;">
+        <div class="page" style="border-color: maroon;">
           <div class="stackable grid">
             <div class="row">
               <div class="three wide center aligned column">
-                <div class="avatar-wrapper">
-                  <img style="width: 100px; height: auto; border-radius: 50%;" src="./assets/images/avatar.jpg" alt="Avatar" />
+                <div class="avatar-wrapper js-avatar">
+                  <div class="avatar-animation">
+                    <div class="fire">
+                      <div class="flames">
+                         <div class="flame"></div>
+                         <div class="flame"></div>
+                         <div class="flame"></div>
+                         <div class="flame"></div>
+                      </div>
+                    </div>
+                    <img style="width: 100px; height: auto; border-radius: 50%;" src="./assets/images/avatar.jpg" alt="Avatar" />
+                  </div>
                 </div>
               </div>
               <div class="thirteen wide column">
@@ -243,5 +254,6 @@
     <footer>
       Ryu ready always!
     </footer>
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>
